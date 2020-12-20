@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-weight: bolder;
+    font-family: 'Open sans', sans-serif;
+    background: linear-gradient(150deg,#00ced1,#06fbff);
+}
+
+article#container{
+    width: 430px;
+    height: 400px;
+
+    background: linear-gradient(150deg,#00ced1,#06fbff);
+    margin: 140px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2);
+
+}
+
+
+div#result{
+    border-bottom: white 1px solid;
+    height: 80px;
+    line-height: 100px;
+    font-size: 40px;
+    color: white;
+    
+}
+div#result, p{    
+    font-size: 20px;
+
+
+}
+div#result #classificacao{    
+    font-size: 10px;
+
+
+}
+
+input#altura{
+    padding: 15px;
+    margin: 40px 10px;
+    font-size: 20px;
+    border: 20px white;
+    border-radius: 50px;
+    text-align: center;
+    outline: 0;
+    font-weight: inherit;
+
+}
+input#peso{
+    padding: 15px;
+    font-size: 20px;
+    border: 20px white;
+    border-radius: 50px;
+    text-align: center;
+    outline: 0;
+    font-weight: inherit;
+}
+
+
+button#botao{
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #06fbff;
+    background: linear-gradient(10deg,#22a7a0,#06fbff);
+    cursor: pointer;
+    outline: 0;
+    font-weight: inherit;
+}
+
